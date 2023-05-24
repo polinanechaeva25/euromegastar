@@ -33,6 +33,18 @@ class NewsListView(TitleContextMixin, ListView):
     model = User
 
 
+class DocsListView(TitleContextMixin, ListView):
+    title = 'Документы'
+    template_name = 'mainapp/docs.html'
+    model = User
+
+
+class ContactListView(TitleContextMixin, ListView):
+    title = 'Контакты'
+    template_name = 'mainapp/contacts.html'
+    model = User
+
+
 class FirstProductListView(TitleContextMixin, ListView):
     title = 'Avrilé Universal'
     template_name = 'mainapp/first_uni.html'

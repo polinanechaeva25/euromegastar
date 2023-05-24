@@ -98,7 +98,7 @@
 }
 
 .bg-hero {
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    background: url(../img/blue_grey.jpg) top right no-repeat;
     background-size: cover;
 }
 
@@ -364,4 +364,57 @@ body{
 .footer-text{
     font-size: 8px;
     line-height: 0.5;
+}
+.bgvideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    object-fit: contain;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+.videobox{
+    position:relative;
+}
+.d-lg-block{
+    background: #000000bf;
+    position: fixed;
+}
+.overlay {
+    position:absolute;
+    top:40%;
+    width:100%;
+    z-index:1;
+}
+.overlay p{
+    font-size: 82px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #8ea6b670;
+}
+.mail-menu{
+    color: #313a89;
+}
+.wrapper-page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.top-part{
+    flex-grow: 1;
+}
+.pt-50{
+    padding-top: 8rem !important;
+}
+.start-banner{
+    display: flex;
+}
+.start-banner h1{
+    flex: 0 0 60%;
+}
+.start-banner a{
+    margin: 65px 0 40px 0;
 }

@@ -309,10 +309,13 @@
     border-color: #313a89;
 }
 .btn-primary:active,
-.btn-primary:hover
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-secondary:focus
  {
-    background-color: #9caac2;
-    border-color: #9caac2;
+    background-color: #bcd29d;
+    border-color: #bcd29d;
+    box-shadow: 0 0 0 0;
 }
 .btn-secondary {
     background-color: #8c99a5;
@@ -323,6 +326,9 @@
  {
     background-color: #bcd29d;
     border-color: #bcd29d;
+}
+.btn:focus{
+    box-shadow: 0 0 0 0;
 }
 .border-secondary{
     border-color: #738e89 !important;
@@ -341,9 +347,6 @@
 }
 body{
     background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(/static/img/bubbles.png);
-}
-.text-white a{
-    color:
 }
 .mt-3p{
     margin-top: 5px;
@@ -371,7 +374,7 @@ body{
     bottom: 0;
     object-fit: contain;
     max-width: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: -9999;
 }
@@ -397,6 +400,48 @@ body{
 }
 .mail-menu{
     color: #313a89;
+}
+.wash-mash{
+    width: 41px;
+    padding: 10px 0 17px;
+}
+.square-img{
+    width: 40px;
+}
+.circle-fix{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width: 1440px) and (min-width: 1024px){
+    .mail-menu{
+        font-size: 20px;
+    }
+    .fs-1 {
+        font-size: 24px !important;
+    }
+    .name-text{
+        font-size: 28px;
+    }
+    .wash-mash{
+        width: 26px;
+    }
+    .square-img{
+        width: 30px;
+    }
+    .overlay p{
+        font-size: 68px;
+    }
+    .circle-fix{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .fs-4 {
+        font-size: 18px !important;
+    }
+    .text-white a{
+        font-size: 20px;
+    }
 }
 .wrapper-page{
     min-height: 100vh;

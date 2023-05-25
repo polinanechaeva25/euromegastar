@@ -11,8 +11,8 @@
             <div class="col-lg-6">
                 <div class="d-flex align-items-center justify-content-center">
                     <a href="{% url 'mainapp:index' %}" class="navbar-brand ms-lg-5">
-                        <h1 class="m-0 display-4 text-primary">
-                            <img src="{% static 'img/shop-logo.png' %}" style="width: 41px; padding: 10px 0 17px;">
+                        <h1 class="m-0 display-4 text-primary name-text">
+                            <img src="{% static 'img/shop-logo.png' %}" class="wash-mash">
                             <span class="text-secondary">EURASIA</span>
                             MEGASTAR
                         </h1>
@@ -20,14 +20,20 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="d-flex align-items-center justify-content-end">
-                    <a class="btn btn-square rounded-circle me-2" href="https://www.wildberries.ru/seller/1123159" target="_blank">
-                        <img src="{% static 'img/ozon__.svg' %}" width="40" style="opacity: 0.5;">
+                <div class="d-flex align-items-center justify-content-around">
+                    <a class="btn btn-square rounded-circle me-2" href="#" target="_blank">
+                        <img src="{% static 'img/cart.png' %}" class="square-img">
+                    </a>
+                    <div>
+                        <a class="btn btn-square rounded-circle me-2" href="https://www.wildberries.ru/seller/1123159" target="_blank">
+                            <img src="{% static 'img/ozon__.svg' %}" class="square-img" style="opacity: 0.5;">
 
-                    </a>
-                    <a class="btn btn-square rounded-circle me-2" href="https://www.wildberries.ru/seller/1123159" target="_blank">
-                        <img src="{% static 'img/wb.png' %}" width="40" style="opacity: 0.5;">
-                    </a>
+                        </a>
+                        <a class="btn btn-square rounded-circle me-2" href="https://www.wildberries.ru/seller/1123159" target="_blank">
+                            <img src="{% static 'img/wb.png' %}" class="square-img" style="opacity: 0.5;">
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>

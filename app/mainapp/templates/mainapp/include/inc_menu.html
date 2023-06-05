@@ -3,7 +3,7 @@
     <div class="container-fluid px-5 d-none d-lg-block">
         <div class="row gx-5 py-3 align-items-center">
             <div class="col-lg-3">
-                <div class="d-flex align-items-center justify-content-start">
+                <div class="d-flex align-items-center justify-content-start convert">
                     <i class="bi bi-envelope fs-1 text-primary me-2"></i>
                     <h2 class="mb-0 mail-menu">buyme@erms.ru</h2>
                 </div>
@@ -22,15 +22,15 @@
             <div class="col-lg-3">
                 <div class="d-flex align-items-center justify-content-around">
                     <a class="btn btn-square rounded-circle me-2" href="#" target="_blank">
-                        <img src="{% static 'img/cart.png' %}" class="square-img">
+                        <img src="{% static 'img/cart.png' %}" class="square-img not-opacity">
                     </a>
                     <div>
                         <a class="btn btn-square rounded-circle me-2" href="https://www.wildberries.ru/seller/1123159" target="_blank">
-                            <img src="{% static 'img/ozon__.svg' %}" class="square-img" style="opacity: 0.5;">
+                            <img src="{% static 'img/ozon__.svg' %}" class="square-img">
 
                         </a>
                         <a class="btn btn-square rounded-circle me-2" href="https://www.wildberries.ru/seller/1123159" target="_blank">
-                            <img src="{% static 'img/wb.png' %}" class="square-img" style="opacity: 0.5;">
+                            <img src="{% static 'img/wb.png' %}" class="square-img">
                         </a>
                     </div>
 
@@ -42,32 +42,32 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex d-lg-none">
-            <h1 class="m-0 display-4 text-secondary"><span class="text-white">Farm</span>Fresh</h1>
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="{% url 'mainapp:index' %}" class="navbar-brand ms-lg-5">
+                        <h1 class="m-0 display-4 text-primary name-text">
+                            <img src="{% static 'img/shop-logo.png' %}" class="wash-mash">
+                            <span class="text-secondary">EURASIA</span>
+                            MEGASTAR
+                        </h1>
+                    </a>
+                </div>
+            </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-<!--        <div class="collapse navbar-collapse" id="navbarCollapse">-->
-<!--            <div class="navbar-nav mx-auto py-0">-->
-<!--                <a href="index.html" class="nav-item nav-link active">Home</a>-->
-<!--                <a href="about.html" class="nav-item nav-link">About</a>-->
-<!--                <a href="service.html" class="nav-item nav-link">Service</a>-->
-<!--                <a href="product.html" class="nav-item nav-link">Product</a>-->
-<!--                <div class="nav-item dropdown">-->
-<!--                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>-->
-<!--                    <div class="dropdown-menu m-0">-->
-<!--                        <a href="blog.html" class="dropdown-item">Blog Grid</a>-->
-<!--                        <a href="detail.html" class="dropdown-item">Blog Detail</a>-->
-<!--                        <a href="feature.html" class="dropdown-item">Features</a>-->
-<!--                        <a href="team.html" class="dropdown-item">The Team</a>-->
-<!--                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <a href="contact.html" class="nav-item nav-link">Contact</a>-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+                <div class="d-flex align-items-center justify-content-start convert">
+                    <i class="bi bi-envelope fs-1 text-primary me-2"></i>
+                    <h2 class="mb-0 mail-menu">buyme@erms.ru</h2>
+                </div>
+                <a class="btn btn-square rounded-circle me-2" href="https://www.wildberries.ru/seller/1123159" target="_blank"><img src="{% static 'img/ozon__.svg' %}" class="square-img"></a>
+                <a class="btn btn-square rounded-circle me-2" href="#" target="_blank"><img src="{% static 'img/cart.png' %}" class="square-img not-opacity"></a>
+                <a class="btn btn-square rounded-circle me-2" href="https://www.wildberries.ru/seller/1123159" target="_blank"><img src="{% static 'img/wb.png' %}" class="square-img"></a>
+            </div>
+        </div>
     </nav>
     <!-- Navbar End -->
 

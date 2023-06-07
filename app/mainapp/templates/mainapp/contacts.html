@@ -7,7 +7,7 @@
         <div class="container pt-5">
             <div class="row justify-content-start">
                 <div class="start-banner">
-                    <h1 class="display-1 text-white mb-md-4 pt-5">Контакты</h1>
+                    <h1 class="display-1 text-white mb-md-4 pt-5 text-about-main">Контакты</h1>
                     <a href="{% url 'mainapp:index' %}" class="btn btn-primary py-md-3 px-md-5 me-3">Главная</a>
                     <a href="{% url 'mainapp:about' %}"class="btn btn-secondary py-md-3 px-md-5">О нас</a>
                 </div>
@@ -23,7 +23,7 @@
             </div>
             <div class="row g-0">
                 <div class="col-lg-7">
-                    <div class="bg-primary h-100 p-5">
+                    <div class="bg-primary h-100 p-5 padding-less">
                         <form>
                             <div class="row g-3">
                                 <div class="col-6">
@@ -39,39 +39,39 @@
                                     <textarea class="form-control bg-light border-0 px-4 py-3" rows="2" placeholder="Сообщение"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-secondary w-100 py-3" type="submit">Отправить письмо</button>
+                                    <button class="btn btn-secondary w-100 py-3 contact-button" type="submit">Отправить письмо</button>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="bg-secondary h-100 p-5">
-                        <h2 class="text-white mb-4">Контакты</h2>
+                    <div class="bg-secondary h-100 p-5 padding-less">
+                        <h2 class="text-white mb-4 adress-text">Контакты</h2>
                         <div class="d-flex mb-4">
-                            <div class="bg-primary less-trans rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <div class="bg-primary less-trans rounded-circle d-flex align-items-center justify-content-center circle-fix">
                                 <i class="bi bi-geo-alt fs-4 text-white"></i>
                             </div>
-                            <div class="ps-3">
-                                <h5 class="text-white">Офис</h5>
+                            <div class="ps-3 extra-class">
+                                <h5 class="text-white adress-text-less">Офис</h5>
                                 <span class="text-white">123 Street, New York, USA</span>
                             </div>
                         </div>
                         <div class="d-flex mb-4">
-                            <div class="bg-primary less-trans rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <div class="bg-primary less-trans rounded-circle d-flex align-items-center justify-content-center circle-fix">
                                 <i class="bi bi-envelope-open fs-4 text-white"></i>
                             </div>
-                            <div class="ps-3">
-                                <h5 class="text-white">Email</h5>
+                            <div class="ps-3 extra-class">
+                                <h5 class="text-white adress-text-less">Email</h5>
                                 <span class="text-white">info@example.com</span>
                             </div>
                         </div>
                         <div class="d-flex">
-                            <div class="bg-primary less-trans rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <div class="bg-primary less-trans rounded-circle d-flex align-items-center justify-content-center circle-fix">
                                 <i class="bi bi-phone-vibrate fs-4 text-white"></i>
                             </div>
-                            <div class="ps-3">
-                                <h5 class="text-white">Телефон</h5>
+                            <div class="ps-3 extra-class">
+                                <h5 class="text-white adress-text-less">Телефон</h5>
                                 <span class="text-white">+012 345 6789</span>
                             </div>
                         </div>

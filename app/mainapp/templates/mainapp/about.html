@@ -7,7 +7,7 @@
         <div class="container pt-5">
             <div class="row justify-content-start">
                 <div class="start-banner">
-                    <h1 class="display-1 text-white mb-md-4 pt-5">О нас</h1>
+                    <h1 class="display-1 text-white mb-md-4 pt-5 text-about-main">О нас</h1>
                     <a href="{% url 'mainapp:index' %}" class="btn btn-primary py-md-3 px-md-5 me-3">Главная</a>
                     <a href="{% url 'mainapp:contacts' %}"class="btn btn-secondary py-md-3 px-md-5">Контакты</a>
                 </div>
@@ -15,7 +15,7 @@
         </div>
     </div>
 <!-- About Start -->
-<div class="container-fluid bg-primary feature py-5 pb-lg-0" style="margin-bottom: 135px;">
+<div class="container-fluid bg-primary feature py-5 pb-lg-0 temporar-magr-bot">
     <div class="container py-5 pb-lg-0">
         <div class="mx-auto text-center mb-3 pb-2" style="max-width: 500px;">
 <!--            <h6 class="text-uppercase text-secondary">Features</h6>-->
@@ -57,10 +57,10 @@
                         наилучшим ценам. Мы щепетильны в выборе товаров. Мы продаем то, чем пользуемся сами.
                     </p>
 </div>
-                    <img class="img-fluid" src="{% static 'img/about_picture.png' %}" alt="" style="margin-top: -24%;">
+                    <img class="img-fluid marg-top-minus" src="{% static 'img/about_picture.png' %}" alt="">
 
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 temporar-magr-top">
                 <div class="text-white mb-5">
                     <div class="bg-secondary rounded-pill d-flex align-items-center justify-content-center mb-3"
                          style="width: 60px; height: 60px;">

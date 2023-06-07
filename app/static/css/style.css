@@ -463,6 +463,12 @@ body{
     .navbar{
         display: none;
     }
+    .marg-top-minus{
+        margin-top: -24%;
+    }
+    .temporar-magr-bot{
+        margin-bottom: 135px;
+    }
 }
 @media (max-width: 992px){
     .navbar{
@@ -470,6 +476,22 @@ body{
         position: fixed !important;
         width: 100vw;
         z-index: 10;
+    }
+    .marg-top-minus{
+        margin-top: -20%;
+    }
+    .square-img {
+        opacity: 1;
+    }
+    .mail-menu,
+    .color-envelop{
+        color: #4856d0 !important;
+    }
+    .temporar-magr-bot{
+        margin-bottom: 0px;
+    }
+    .temporar-magr-top{
+        margin-top: 20% !important;
     }
 }
 @media (max-width: 1024px) and (min-width: 768px){
@@ -488,8 +510,18 @@ body{
     .overlay p{
         font-size: 48px;
     }
+    .text-about-main{
+        font-size: 38px;
+    }
+    .start-banner h1 {
+        flex: 0 0 50% !important;
+    }
+    .start-banner a {
+        margin: 50px 10px 30px 0 !important;
+        font-size: 12px;
+    }
 }
-@media (max-width: 768px) and (min-width: 425px){
+@media (max-width: 768px) and (min-width: 320px){
     .name-text{
         font-size: 24px
     }
@@ -510,6 +542,176 @@ body{
     }
     .descr-size{
         font-size: 14px;
+    }
+    .btn-square{
+        flex: 0 0 30%;
+        text-align: left;
+        margin: 0 !important;
+    }
+    .navbar-nav{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+    .convert{
+        flex: 0 0 100%;
+    }
+    .text-about-main{
+        font-size: 28px;
+    }
+    .start-banner h1 {
+        flex: 0 0 44% !important;
+    }
+    .start-banner a {
+        margin: 50px 10px 30px 0 !important;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 375px){
+    .descr-size{
+        font-size: 12px;
+    }
+        .padding-less{
+        padding: 1rem !important;
+    }
+    ::-webkit-input-placeholder {font-size: 10px;}
+    ::-moz-placeholder          {font-size: 10px;}/* Firefox 19+ */
+    :-moz-placeholder           {font-size: 10px;}/* Firefox 18- */
+    :-ms-input-placeholder      {font-size: 10px;}
+
+    .adress-text{
+        font-size: 20px;
+    }
+    .adress-text-less{
+        font-size: 17px;
+    }
+    .extra-class:last-child{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 320px){
+    .descr-size{
+        font-size: 12px;
+    }
+    .name-text{
+        font-size: 18px
+    }
+    .wash-mash {
+        width: 18px;
+        padding: 10px 0 12px;
+    }
+    .navbar-toggler-icon{
+        width: 1em;
+        height: 1em;
+    }
+    .overlay p{
+        font-size: 40px
+    }
+    .marg-zero{
+        margin-bottom: 0.5rem !important;
+    }
+    .square-img {
+        width: 30px;
+    }
+    .docs-size{
+        font-size: 18px;
+    }
+        .padding-less{
+        padding: 1rem !important;
+    }
+    ::-webkit-input-placeholder {font-size: 10px;}
+    ::-moz-placeholder          {font-size: 10px;}/* Firefox 19+ */
+    :-moz-placeholder           {font-size: 10px;}/* Firefox 18- */
+    :-ms-input-placeholder      {font-size: 10px;}
+
+    .adress-text{
+        font-size: 20px;
+    }
+    .adress-text-less{
+        font-size: 17px;
+    }
+    .extra-class:last-child{
+        font-size: 10px;
+    }
+}
+@media (max-width: 320px){
+    .bgvideo{
+        height: 100vh;
+        max-width: fit-content;
+        width: auto;
+    }
+    .descr-size{
+        font-size: 14px;
+    }
+    .btn-square{
+        flex: 0 0 30%;
+        text-align: left;
+        margin: 0 !important;
+    }
+    .navbar-nav{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+    .convert{
+        flex: 0 0 100%;
+    }
+        .descr-size{
+        font-size: 12px;
+    }
+    .name-text{
+        font-size: 16px
+    }
+    .wash-mash {
+        width: 18px;
+        padding: 10px 0 12px;
+    }
+    .navbar-toggler-icon{
+        width: 0.7em;
+        height: 0.7em;
+        vertical-align: baseline;
+    }
+    .overlay p{
+        font-size: 40px
+    }
+    .marg-zero{
+        margin-bottom: 0.5rem !important;
+    }
+    .square-img {
+        width: 30px;
+    }
+    .text-about-main{
+        font-size: 17px;
+    }
+    .start-banner h1 {
+        flex: 0 0 38% !important;
+    }
+    .start-banner a {
+        margin: 45px 8px 25px 0 !important;
+        font-size: 10px;
+    }
+    .title-size{
+        font-size: 16px;
+    }
+    .contact-button{
+        font-size: 10px;
+    }
+    .padding-less{
+        padding: 1rem !important;
+    }
+    ::-webkit-input-placeholder {font-size: 10px;}
+    ::-moz-placeholder          {font-size: 10px;}/* Firefox 19+ */
+    :-moz-placeholder           {font-size: 10px;}/* Firefox 18- */
+    :-ms-input-placeholder      {font-size: 10px;}
+
+    .adress-text{
+        font-size: 20px;
+    }
+    .adress-text-less{
+        font-size: 17px;
+    }
+    .extra-class:last-child{
+        font-size: 10px;
     }
 }
 .wrapper-page{

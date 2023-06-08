@@ -383,7 +383,7 @@ body{
     position:relative;
 }
 .d-lg-block{
-    background: #000000bf;
+    background: #2d587b54;
     position: fixed;
     z-index: 10;
 }
@@ -398,14 +398,14 @@ body{
     letter-spacing: 3px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color: #8ea6b670;
+    color: #407ba8bd;
 }
 .mail-menu{
     color: #313a89;
 }
 .convert:hover i,
 .convert:hover h2{
-    color: #162eff !important;
+    color: #13162e !important;
 }
 .wash-mash{
     width: 41px;
@@ -472,7 +472,7 @@ body{
 }
 @media (max-width: 992px){
     .navbar{
-        background: #000000bf !important;
+        background: #2d587b54 !important;
         position: fixed !important;
         width: 100vw;
         z-index: 10;
@@ -532,7 +532,8 @@ body{
     .bgvideo{
         height: 100vh;
         max-width: fit-content;
-        width: auto;
+        width: 100vw;
+        object-fit: cover;
     }
     .overlay p{
         font-size: 56px
@@ -639,7 +640,8 @@ body{
     .bgvideo{
         height: 100vh;
         max-width: fit-content;
-        width: auto;
+        width: 100vw;
+        object-fit: cover;
     }
     .descr-size{
         font-size: 14px;
@@ -740,4 +742,7 @@ body{
 .transp-text,
 .transp-text a{
     color: #00000021 !important;
+}
+.d-lg-block__color{
+    background: #798e9f;
 }

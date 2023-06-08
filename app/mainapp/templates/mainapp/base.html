@@ -70,6 +70,11 @@
 
     <!-- Template Javascript -->
     <script src="{% static 'js/main.js' %}"></script>
+    <script>
+        $(document).scroll(function(e) {
+            $(window).scrollTop() > 100 ? $('.d-lg-block').addClass('d-lg-block__color') : $('.d-lg-block').removeClass('d-lg-block__color');
+        });
+    </script>
 </body>
 
 </html>
